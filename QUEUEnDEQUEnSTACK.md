@@ -1,4 +1,4 @@
-## [큐(Queue)]
+## 큐(Queue)
 
 선입선출(FIFO, First In First Out). 즉, 먼저 입력/삽입 된 데이터부터 출력/제거 하는 방식이다.
 
@@ -34,8 +34,8 @@ queue.popleft() # 먼저 입력된 데이터 차례로 삭제
 print(queue) # 먼저 입력된 데이터부터 차례대로 출력
 print(queue.reverse()) # 나중에 입력된 데이터부터 차례대로 출력
 ```
-
-## [스택(Stack)]
+#
+## 스택(Stack)
 
 선입후출(Last In First Out). 즉, 마지막에 들어온 데이터부터 출력/제거 하는 방식이다.
 
@@ -68,7 +68,8 @@ print(stack) # 스택 내 최하단 원소부터 데이터 출력 -> 남은 데�
 print(stack[::-1]) # 스택 내 최상단 데이터 출력 -> 남은 데이터 중 제일 나중에 입력 된 데이터 부터 출력
 ```
 
-## [덱(Deque)]
+#
+## 덱(Deque)
 
 Double-Ended Queue. 즉, 단방향 입출력만 가능한 스택과 큐와 달리 양쪽에서 입출력이 가능하다.
 
@@ -150,7 +151,7 @@ dq.rotate(-1)
 print(dq)
 #출력 결과: deque([2,3,4,5,1])
 ```
-
+#
 ### **list로도 구현이 가능한데 deque을 사용하는 이유**
 
 -   pop, popleft, append, appendleft 를 사용해 list와 deque 중 덱이 속도가 훨씬 빠르기 때문이다. 
